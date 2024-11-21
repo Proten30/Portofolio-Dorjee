@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Couleur de fond claire */
+    color: #333; /* Couleur de texte */
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #007acc;
+    margin-right: 15px;
+  }
+
+  a:hover {
+    text-decoration: underline;}
+  
+  /* Header */
+  header {
+    background-color: #007acc; /* Bleu clair */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style-type: none; /* Supprime les puces des listes */
+    padding: 0;
+    margin: 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.1em;
+    margin: 20px 0;
+  }
+  
+  /* Liens de navigation */
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Compétences */
+  header li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  
+  header img {
+    margin-right: 15px; /* Espace entre l'image et le texte */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150;
+  }
+  
+  /* Section */
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  section div {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  /* Image dans la section */
+  section img {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  section img:hover {
+    transform: scale(1.1); /* Zoom sur l'image au survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus intense */
+  }
+  
+  /* Heading pour la section */
+  section h4 {
+    font-size: 1.2em;
+    color: #007acc;
+    margin-top: 15px;
+  }
+  
+  /* Flèche */
+  section h4 span {
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: #333;
+  }
+  
